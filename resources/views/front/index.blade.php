@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:700%7CNunito:300,600" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="{{ asset('css/front.css') }}"/>
 
-
+{{-- simple commant --}}
 
 <!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
