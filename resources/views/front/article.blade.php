@@ -132,36 +132,12 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-title">
-                                <h2>Latest</h2>
-                            </div>
-                        </div>
+                        <h1>{{ $article->title }}</h1>
+                        <p>{{ $article->created_at }}</p>
 
-                      @foreach ($posts as $post)
- 
-                        <div class="col-md-12">
-                            <div class="post post-row">
-                                <a class="post-img" href="/article/{{ $post->id }}"><img
-                                        src="{{  $post ->image}}" alt=""></a>
-                                <div class="post-body">
-                                    <div class="post-meta">
-                                        {{-- <a class="post-category cat-2" href="category.html">JavaScript</a> --}}
-                                        <span class="post-date">{{  $post ->created_at}}</span>
-                                    </div>
-                                    <h3 class="post-title"><a href="/article/{{ $post->id }}">{{ $post ->title}}</a></h3>
-                                    <p>{{ $post ->body}}</p>
-                                </div>
-                            </div>
-                        </div>
 
-                      @endforeach
+                        <p>{{ $article->body }}</p>
 
-                        {{-- <div class="col-md-12">
-                            <div class="section-row">
-                                <button class="primary-button center-block">Load More</button>
-                            </div>
-                        </div> --}}
                     </div>
                 </div>
                 <div class="col-md-4">

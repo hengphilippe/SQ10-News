@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArticlesController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 /*
@@ -14,9 +15,10 @@ use Illuminate\Support\Facades\Auth;
 */
 
 
-Route::get('/', function() {
-    return view('front.index');
-});
+
+Route::get('/', [ArticlesController::class, 'index']);
+Route::get('/article/{article}', [ArticlesController::class, 'show']);
+
 
 Route::get('/admin', function() {
     return view('admin.index');
