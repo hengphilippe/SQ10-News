@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>WebMag HTML Template</title>
+<title>WebMag HTML Template Group3</title>
 
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:700%7CNunito:300,600" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="{{ asset('css/front.css') }}"/>
