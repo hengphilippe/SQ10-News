@@ -23,15 +23,9 @@
 
     @include('front.includes.header')
 
-    @include('front.includes.sections.first_section')
-
-    @include('front.includes.sections.second_section')
-
-    @include('front.includes.sections.third_section')
+     @yield('content')
 
     @include('front.includes.footer')
-
-
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script>
