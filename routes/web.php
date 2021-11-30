@@ -16,8 +16,9 @@ use Illuminate\Support\Facades\Auth;
 
 
 
-Route::get('/', [ArticlesController::class, 'index']);
+Route::get('/', [ArticlesController::class, 'showall']);
 Route::get('/article/{article}', [ArticlesController::class, 'show']);
+Route::get('/category/{id}', [ArticlesController::class, 'showAllByCategory']);
 
 
 Route::get('/admin', function() {

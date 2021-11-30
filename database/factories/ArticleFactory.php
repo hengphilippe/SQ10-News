@@ -26,7 +26,7 @@ class ArticleFactory extends Factory
             'body' => $this -> faker->text(),
             'image' => $this -> faker->imageUrl(),
             'status' => 1,
-            'category_id'=> 1
+            'category_id'=> 3
         ];
     }
 }
