@@ -15,9 +15,17 @@ use Illuminate\Support\Facades\Auth;
 
 
 Route::get('/', function() {
-    return view('front.index');
+    return view('pages.front.home');
 });
 
-Route::get('/admin', function() {
-    return view('admin.index');
-})->middleware(['auth','verified']);
+Route::get('/news', function() {
+    return view('pages.front.news');
+});
+
+Route::get('/detail', function() {
+    return view('pages.front.single-detail');
+});
+
+// Route::get('/admin', function() {
+//     return view('admin.home');
+// })->middleware(['auth','verified']);
