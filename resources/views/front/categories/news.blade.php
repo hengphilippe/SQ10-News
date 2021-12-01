@@ -34,14 +34,14 @@
 
                         <div class="col-md-12">
                             <div class="post post-thumb">
-                                <a class="post-img" href="blog-post.html"><img
+                                <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                         src="img/xpost-1.jpg.pagespeed.ic.2GXRfHYjOg.webp" alt=""></a>
                                 <div class="post-body">
                                     <div class="post-meta">
-                                        <a class="post-category cat-2" href="#">JavaScript</a>
+                                       <a class="post-category cat-2" href="{{ route('category.news') }}">{{ Str::upper(last(request()->segments())) }}</a>
                                         <span class="post-date">March 27, 2018</span>
                                     </div>
-                                    <h3 class="post-title"><a href="blog-post.html">Javascript : Prototype vs
+                                    <h3 class="post-title"><a href="{{ route('category.blog.post') }}">Javascript : Prototype vs
                                             Class</a></h3>
                                 </div>
                             </div>
@@ -50,14 +50,15 @@
 
                         <div class="col-md-6">
                             <div class="post">
-                                <a class="post-img" href="blog-post.html"><img
+                                <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                         src="img/xpost-4.jpg.pagespeed.ic.5tBCPmCJW-.webp" alt=""></a>
                                 <div class="post-body">
                                     <div class="post-meta">
-                                        <a class="post-category cat-2" href="#">JavaScript</a>
+                                       <a class="post-category cat-2" href="{{ route('category.news') }}">{{ Str::upper(last(request()->segments())) }}</a>
+                    
                                         <span class="post-date">March 27, 2018</span>
                                     </div>
-                                    <h3 class="post-title"><a href="blog-post.html">Chrome Extension Protects
+                                    <h3 class="post-title"><a href="{{ route('category.blog.post') }}">Chrome Extension Protects
                                             Against JavaScript-Based CPU Side-Channel Attacks</a></h3>
                                 </div>
                             </div>
@@ -66,14 +67,14 @@
 
                         <div class="col-md-6">
                             <div class="post">
-                                <a class="post-img" href="blog-post.html"><img
+                                <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                         src="img/xpost-6.jpg.pagespeed.ic.XqKLoKE85z.webp" alt=""></a>
                                 <div class="post-body">
                                     <div class="post-meta">
-                                        <a class="post-category cat-2" href="#">JavaScript</a>
+                                       <a class="post-category cat-2" href="{{ route('category.news') }}">{{ Str::upper(last(request()->segments())) }}</a>
                                         <span class="post-date">March 27, 2018</span>
                                     </div>
-                                    <h3 class="post-title"><a href="blog-post.html">Why Node.js Is The Coolest Kid
+                                    <h3 class="post-title"><a href="{{ route('category.blog.post') }}">Why Node.js Is The Coolest Kid
                                             On The Backend Development Block!</a></h3>
                                 </div>
                             </div>
@@ -93,14 +94,14 @@
 
                         <div class="col-md-12">
                             <div class="post post-row">
-                                <a class="post-img" href="blog-post.html"><img
+                                <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                         src="img/xpost-2.jpg.pagespeed.ic.DOAToGcDYE.webp" alt=""></a>
                                 <div class="post-body">
                                     <div class="post-meta">
-                                        <a class="post-category cat-2" href="#">JavaScript</a>
+                                       <a class="post-category cat-2" href="{{ route('category.news') }}">{{ Str::upper(last(request()->segments())) }}</a>
                                         <span class="post-date">March 27, 2018</span>
                                     </div>
-                                    <h3 class="post-title"><a href="blog-post.html">Ask HN: Does Anybody Still Use
+                                    <h3 class="post-title"><a href="{{ route('category.blog.post') }}">Ask HN: Does Anybody Still Use
                                             JQuery?</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
@@ -111,14 +112,14 @@
 
                         <div class="col-md-12">
                             <div class="post post-row">
-                                <a class="post-img" href="blog-post.html"><img
+                                <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                         src="img/xpost-5.jpg.pagespeed.ic.jXTrIrIxiM.webp" alt=""></a>
                                 <div class="post-body">
                                     <div class="post-meta">
-                                        <a class="post-category cat-2" href="#">JavaScript</a>
+                                       <a class="post-category cat-2" href="{{ route('category.news') }}">{{ Str::upper(last(request()->segments())) }}</a>
                                         <span class="post-date">March 27, 2018</span>
                                     </div>
-                                    <h3 class="post-title"><a href="blog-post.html">Microsoft’s TypeScript Fills A
+                                    <h3 class="post-title"><a href="{{ route('category.blog.post') }}">Microsoft’s TypeScript Fills A
                                             Long-standing Void In JavaScript</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
@@ -129,14 +130,14 @@
 
                         <div class="col-md-12">
                             <div class="post post-row">
-                                <a class="post-img" href="blog-post.html"><img
+                                <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                         src="img/xpost-3.jpg.pagespeed.ic.UjtolzGXxD.webp" alt=""></a>
                                 <div class="post-body">
                                     <div class="post-meta">
-                                        <a class="post-category cat-2" href="#">JavaScript</a>
+                                       <a class="post-category cat-2" href="{{ route('category.news') }}">{{ Str::upper(last(request()->segments())) }}</a>
                                         <span class="post-date">March 27, 2018</span>
                                     </div>
-                                    <h3 class="post-title"><a href="blog-post.html">Javascript : Prototype vs
+                                    <h3 class="post-title"><a href="{{ route('category.blog.post') }}">Javascript : Prototype vs
                                             Class</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
@@ -147,14 +148,14 @@
 
                         <div class="col-md-12">
                             <div class="post post-row">
-                                <a class="post-img" href="blog-post.html"><img
+                                <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                         src="img/xpost-1.jpg.pagespeed.ic.2GXRfHYjOg.webp" alt=""></a>
                                 <div class="post-body">
                                     <div class="post-meta">
-                                        <a class="post-category cat-2" href="#">JavaScript</a>
+                                       <a class="post-category cat-2" href="{{ route('category.news') }}">{{ Str::upper(last(request()->segments())) }}</a>
                                         <span class="post-date">March 27, 2018</span>
                                     </div>
-                                    <h3 class="post-title"><a href="blog-post.html">Why Node.js Is The Coolest Kid
+                                    <h3 class="post-title"><a href="{{ route('category.blog.post') }}">Why Node.js Is The Coolest Kid
                                             On The Backend Development Block!</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
@@ -185,34 +186,34 @@
                             <h2>Most Read</h2>
                         </div>
                         <div class="post post-widget">
-                            <a class="post-img" href="blog-post.html"><img
+                            <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                     src="img/xwidget-1.jpg.pagespeed.ic.NYJjOYjv_V.webp" alt=""></a>
                             <div class="post-body">
-                                <h3 class="post-title"><a href="blog-post.html">Tell-A-Tool: Guide To Web Design And
+                                <h3 class="post-title"><a href="{{ route('category.blog.post') }}">Tell-A-Tool: Guide To Web Design And
                                         Development Tools</a></h3>
                             </div>
                         </div>
                         <div class="post post-widget">
-                            <a class="post-img" href="blog-post.html"><img
+                            <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                     src="img/xwidget-2.jpg.pagespeed.ic.cSUEAOhjjU.webp" alt=""></a>
                             <div class="post-body">
-                                <h3 class="post-title"><a href="blog-post.html">Pagedraw UI Builder Turns Your
+                                <h3 class="post-title"><a href="{{ route('category.blog.post') }}">Pagedraw UI Builder Turns Your
                                         Website Design Mockup Into Code Automatically</a></h3>
                             </div>
                         </div>
                         <div class="post post-widget">
-                            <a class="post-img" href="blog-post.html"><img
+                            <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                     src="img/xwidget-3.jpg.pagespeed.ic.5z-SP7IbT6.webp" alt=""></a>
                             <div class="post-body">
-                                <h3 class="post-title"><a href="blog-post.html">Why Node.js Is The Coolest Kid On
+                                <h3 class="post-title"><a href="{{ route('category.blog.post') }}">Why Node.js Is The Coolest Kid On
                                         The Backend Development Block!</a></h3>
                             </div>
                         </div>
                         <div class="post post-widget">
-                            <a class="post-img" href="blog-post.html"><img
+                            <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                     src="img/xwidget-4.jpg.pagespeed.ic.i3iWR0f20S.webp" alt=""></a>
                             <div class="post-body">
-                                <h3 class="post-title"><a href="blog-post.html">Tell-A-Tool: Guide To Web Design And
+                                <h3 class="post-title"><a href="{{ route('category.blog.post') }}">Tell-A-Tool: Guide To Web Design And
                                         Development Tools</a></h3>
                             </div>
                         </div>

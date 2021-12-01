@@ -127,6 +127,7 @@
                     </div>
 
 
+                    {{-- Comments --}}
                     <div class="section-row">
                         <div class="section-title">
                             <h2>3 Comments</h2>
@@ -190,6 +191,7 @@
                         </div>
                     </div>
 
+                    {{-- LeaveAReply --}}
 
                     <div class="section-row">
                         <div class="section-title">

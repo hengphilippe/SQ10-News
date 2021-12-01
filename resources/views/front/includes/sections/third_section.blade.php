@@ -13,14 +13,14 @@
 
                     <div class="col-md-12">
                         <div class="post post-row">
-                            <a class="post-img" href="blog-post.html"><img
+                            <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                     src="{{ asset('images/img/xpost-4.jpg.pagespeed.ic.5tBCPmCJW-.webp') }}" alt=""></a>
                             <div class="post-body">
                                 <div class="post-meta">
                                     <a class="post-category cat-2" href="category.html">JavaScript</a>
                                     <span class="post-date">March 27, 2018</span>
                                 </div>
-                                <h3 class="post-title"><a href="blog-post.html">Chrome Extension Protects
+                                <h3 class="post-title"><a href="{{ route('category.blog.post') }}">Chrome Extension Protects
                                         Against JavaScript-Based CPU Side-Channel Attacks</a></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
@@ -31,14 +31,14 @@
 
                     <div class="col-md-12">
                         <div class="post post-row">
-                            <a class="post-img" href="blog-post.html"><img
+                            <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                     src="{{ asset('images/img/xpost-6.jpg.pagespeed.ic.XqKLoKE85z.webp') }}" alt=""></a>
                             <div class="post-body">
                                 <div class="post-meta">
                                     <a class="post-category cat-2" href="category.html">JavaScript</a>
                                     <span class="post-date">March 27, 2018</span>
                                 </div>
-                                <h3 class="post-title"><a href="blog-post.html">Why Node.js Is The Coolest Kid
+                                <h3 class="post-title"><a href="{{ route('category.blog.post') }}">Why Node.js Is The Coolest Kid
                                         On The Backend Development Block!</a></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
@@ -49,14 +49,14 @@
 
                     <div class="col-md-12">
                         <div class="post post-row">
-                            <a class="post-img" href="blog-post.html"><img
+                            <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                     src="{{ asset('images/img/xpost-1.jpg.pagespeed.ic.2GXRfHYjOg.webp') }}" alt=""></a>
                             <div class="post-body">
                                 <div class="post-meta">
                                     <a class="post-category cat-4" href="category.html">Css</a>
                                     <span class="post-date">March 27, 2018</span>
                                 </div>
-                                <h3 class="post-title"><a href="blog-post.html">CSS Float: A Tutorial</a></h3>
+                                <h3 class="post-title"><a href="{{ route('category.blog.post') }}">CSS Float: A Tutorial</a></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
                             </div>
@@ -66,14 +66,14 @@
 
                     <div class="col-md-12">
                         <div class="post post-row">
-                            <a class="post-img" href="blog-post.html"><img
+                            <a class="post-img" href="{{ route('category.blog.post') }}"><img
                                     src="{{ asset('articles/02.webp') }}" alt=""></a>
                             <div class="post-body">
                                 <div class="post-meta">
                                     <a class="post-category cat-3" href="category.html">Jquery</a>
                                     <span class="post-date">March 27, 2018</span>
                                 </div>
-                                <h3 class="post-title"><a href="blog-post.html">Ask HN: Does Anybody Still Use
+                                <h3 class="post-title"><a href="{{ route('category.blog.post') }}">Ask HN: Does Anybody Still Use
                                         JQuery?</a></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>

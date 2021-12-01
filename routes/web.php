@@ -45,8 +45,7 @@ Route::prefix('categories')->group(function () {
         return view('front.categories.jquery');
     })->name('category.jquery');
 
-});
-
-Route::get('blog', function () {
-    return view('front.blog_post');
+    Route::get('blog', function () {
+        return view('front.blog_post');
+    })->name('category.blog.post');
 });
