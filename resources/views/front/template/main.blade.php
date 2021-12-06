@@ -122,6 +122,10 @@
 
     </header>
 
+    <div>
+        @yield('above_content')
+    </div>
+
     <div class="section">
         <div class="container">
             <div class="row">
