@@ -260,7 +260,7 @@
 
 
     <script src="{{ asset('js/jquery.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>___scripts_5___
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script>
         eval(mod_pagespeed_RDDE5qW6SI);
     </script>
