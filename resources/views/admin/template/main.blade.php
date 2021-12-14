@@ -17,7 +17,7 @@
 	<title>Blank Page | AdminKit Demo</title>
 
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-
+	<script src="https://cdn.tiny.cloud/1/2nhopgs8whtv6zu4fbrtmmh17b7kpwd9g55ktj83h3vz15q2/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 	<!-- Choose your prefered color scheme -->
 	<!-- <link href="css/light.css" rel="stylesheet"> -->
 	<!-- <link href="css/dark.css" rel="stylesheet"> -->
@@ -96,22 +96,20 @@
 					</li>
 					<li class="sidebar-item">
 						<a data-bs-target="#dashboards" data-bs-toggle="collapse" class="sidebar-link collapsed">
-							<i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboards</span>
+							<i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Articles</span>
 						</a>
-						<ul id="dashboards" class="sidebar-dropdown list-unstyled collapse " data-bs-parent="#sidebar">
-							<li class="sidebar-item"><a class="sidebar-link" href="index.html">Analytics</a></li>
-							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-ecommerce.html">E-Commerce <span
-										class="sidebar-badge badge bg-primary">Pro</span></a></li>
-							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-crypto.html">Crypto <span
-										class="sidebar-badge badge bg-primary">Pro</span></a></li>
+						<ul id="dashboards" class="sidebar-dropdown list-unstyled collapse show" data-bs-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="{{ route('admin-article') }}">My Articles</a></li>
+							<li class="sidebar-item active"><a class="sidebar-link" href="{{ route('admin-article-create') }}">Add New</a></li>
 						</ul>
 					</li>
 
 					<li class="sidebar-item active">
 						<a data-bs-target="#pages" data-bs-toggle="collapse" class="sidebar-link">
-							<i class="align-middle" data-feather="layout"></i> <span class="align-middle">Pages</span>
+							<i class="align-middle" data-feather="layout"></i> <span class="align-middle">Users</span>
 						</a>
-						<ul id="pages" class="sidebar-dropdown list-unstyled collapse show" data-bs-parent="#sidebar">
+						{{-- show class for auto selected --}}
+						<ul id="pages" class="sidebar-dropdown list-unstyled collapse " data-bs-parent="#sidebar"> 
 							<li class="sidebar-item"><a class="sidebar-link" href="pages-settings.html">Settings</a></li>
 							<li class="sidebar-item"><a class="sidebar-link" href="pages-projects.html">Projects <span
 										class="sidebar-badge badge bg-primary">Pro</span></a></li>
@@ -121,7 +119,7 @@
 										class="sidebar-badge badge bg-primary">Pro</span></a></li>
 							<li class="sidebar-item"><a class="sidebar-link" href="pages-chat.html">Chat <span
 										class="sidebar-badge badge bg-primary">Pro</span></a></li>
-							<li class="sidebar-item active"><a class="sidebar-link" href="pages-blank.html">Blank Page</a></li>
+							<li class="sidebar-item "><a class="sidebar-link" href="pages-blank.html">Blank Page</a></li>
 						</ul>
 					</li>
 
@@ -333,7 +331,7 @@
 			<main class="content">
 				<div class="container-fluid p-0">
 
-					<h1 class="h3 mb-3">Blank Page</h1>
+					{{-- <h1 class="h3 mb-3">Blank Page</h1>
 
 					<div class="row">
 						<div class="col-12">
@@ -345,8 +343,8 @@
 								</div>
 							</div>
 						</div>
-					</div>
-
+					</div> --}}
+                    @yield('main')
 				</div>
 			</main>
 
